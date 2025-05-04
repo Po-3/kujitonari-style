@@ -114,16 +114,6 @@ body {
     padding-left: 5px !important;
     padding-right: 5px !important;
   }
-
-  .entry-content .table-of-contents {
-    width: auto !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding-left: 1em !important;
-    padding-right: 1em !important;
-    border-radius: 8px; /* 必要に応じて調整 */
-    box-sizing: border-box;
-  }
 }
 
 /* =============================== */
