@@ -116,17 +116,21 @@ body {
     padding-left: 5px !important;
     padding-right: 5px !important;
   }
-    .urllist-with-thumbnails li {
-    display: block !important;
+  .urllist-with-thumbnails {
+    flex-direction: column !important;
+  }
+
+  .urllist-with-thumbnails li {
     width: 100% !important;
     margin-left: 0 !important;
+    display: block !important;
   }
 
   .urllist-with-thumbnails li .urllist-image {
-    display: block !important;
     width: 100% !important;
-    height: auto !important;
-    margin-bottom: 6px !important;
+    display: block !important;
+    margin-bottom: 8px;
+    border-radius: 8px;
   }
 
   .urllist-with-thumbnails li .urllist-title {
@@ -134,8 +138,8 @@ body {
     width: 100% !important;
     font-size: 15px !important;
     line-height: 1.6 !important;
+    padding: 0 8px;
     text-align: left !important;
-    padding: 0 6px;
   }
 }
 
