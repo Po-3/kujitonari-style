@@ -3,8 +3,8 @@
 /* </system> */
 
 @font-face {
-  font-family: 'Corporate Logo'; !important
-  src: url('https://po-3.github.io/kujitonari-style/fonts/Corporate-Logo-Medium-ver3.woff') format('woff');
+  font-family: 'Corporate Logo';
+  src: url('https://po-3.github.io/kujitonari-style/fonts/Corporate-Logo-Medium-ver3.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
