@@ -115,14 +115,15 @@ body {
     padding-right: 5px !important;
   }
 
-  .entry-content .table-of-contents {
-    width: 100vw;
-    margin-left: -10px;
-    margin-right: -10px;
-    border-radius: 0;
-    padding-left: 1em;
-    padding-right: 1em;
-} 
+.entry-content .table-of-contents {
+  width: 100vw !important;
+  margin-left: calc(-1 * (100vw - 100%) / 2) !important;
+  margin-right: calc(-1 * (100vw - 100%) / 2) !important;
+  border-radius: 0 !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  box-sizing: border-box !important;
+}
 }
 
 /* =============================== */
