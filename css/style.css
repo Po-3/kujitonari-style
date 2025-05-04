@@ -97,6 +97,11 @@ body {
 /* === モバイル最適化設定 === */
 /* ============================= */
 @media screen and (max-width: 768px) {
+body {
+  font-family: 'Corporate Logo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+  color: var(--text-dark); /* 既存の文字色を保持 */
+}
+  
   .entry-content,
   #content,
   .main,
