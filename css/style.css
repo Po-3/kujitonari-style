@@ -116,13 +116,11 @@ body {
   }
 
 .entry-content .table-of-contents {
-  width: 100vw !important;
-  margin-left: calc(-1 * (100vw - 100%) / 2) !important;
-  margin-right: calc(-1 * (100vw - 100%) / 2) !important;
-  border-radius: 0 !important;
-  padding-left: 1em !important;
-  padding-right: 1em !important;
-  box-sizing: border-box !important;
+      margin-left: -5px !important;
+    margin-right: -5px !important;
+    border-radius: 0 !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
 }
 }
 
