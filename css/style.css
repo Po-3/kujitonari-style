@@ -24,7 +24,7 @@
 
 /* 全体にCorporate Logoを使用（日本語に対応する予備フォントも追加） */
 body {
-  font-family: 'Corporate Logo', "Hiragino Kaku Gothic ProN", "Yu Gothic", "Helvetica Neue", sans-serif;
+  font-family: 'Corporate Logo', "Hiragino Kaku Gothic ProN", "Yu Gothic", "Helvetica Neue", sans-serif; !important
   color: var(--text-dark); /* 既存の文字色を保持 */
 }
 
