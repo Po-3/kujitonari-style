@@ -116,6 +116,27 @@ body {
     padding-left: 5px !important;
     padding-right: 5px !important;
   }
+    .urllist-with-thumbnails li {
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .urllist-with-thumbnails li .urllist-image {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 6px !important;
+  }
+
+  .urllist-with-thumbnails li .urllist-title {
+    display: block !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+    padding: 0 6px;
+  }
 }
 
 /* =============================== */
